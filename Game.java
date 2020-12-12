@@ -147,6 +147,7 @@ public class Game extends JPanel implements ActionListener,KeyListener {
 		
 		
 		if (e.getKeyCode() == 37 && this.velocityX != 1) { 
+			this.velocityX =-1;
 			this.velocityY = 0;
 		}
 		if (e.getKeyCode() == 38 && this.velocityY != 1) { 
